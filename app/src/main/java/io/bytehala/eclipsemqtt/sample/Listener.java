@@ -108,9 +108,9 @@ public class Listener implements OnMenuItemClickListener {
       case R.id.connectMenuOption :
         reconnect();
         break;
-      case R.id.startLogging :
-        enablePahoLogging();
-        break;
+      //case R.id.startLogging :
+      //  enablePahoLogging();
+      //  break;
       case R.id.endLogging :
         disablePahoLogging();
         break;

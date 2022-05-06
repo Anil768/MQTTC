@@ -17,9 +17,9 @@ IBM Corp.
         android:title="@string/connect"
         android:visible="false"
         compat:showAsAction="always" />
-    <item
+    <!--<item
         android:id="@+id/advanced"
         android:title="@string/advanced"
         android:titleCondensed="@string/advancedShort"
-        compat:showAsAction="ifRoom" />
+        compat:showAsAction="ifRoom" />-->
 </menu>

@@ -72,7 +72,7 @@ public class NewConnectionActivity extends AppCompatActivity {
     getMenuInflater().inflate(R.menu.activity_new_connection, menu);
     OnMenuItemClickListener listener = new Listener(this);
     menu.findItem(R.id.connectAction).setOnMenuItemClickListener(listener);
-    menu.findItem(R.id.advanced).setOnMenuItemClickListener(listener);
+    //menu.findItem(R.id.advanced).setOnMenuItemClickListener(listener);
 
     return true;
   }
@@ -135,14 +135,14 @@ public class NewConnectionActivity extends AppCompatActivity {
           case R.id.connectAction :
             doConnectAction();
             break;
-          case R.id.advanced :
+          //case R.id.advanced :
             //start the advanced options activity
-            dataBundle.setClassName(newConnection,
-                "io.bytehala.eclipsemqtt.sample.AdvancedActivity");
-            newConnection.startActivityForResult(dataBundle,
-                ActivityConstants.advancedConnect);
+            //dataBundle.setClassName(newConnection,
+             //   "io.bytehala.eclipsemqtt.sample.AdvancedActivity");
+            //newConnection.startActivityForResult(dataBundle,
+             //   ActivityConstants.advancedConnect);
 
-            break;
+            //break;
         }
         return false;
 

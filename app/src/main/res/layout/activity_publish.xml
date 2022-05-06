@@ -67,13 +67,12 @@ IBM Corp.
     </LinearLayout>
 
 
-
     <LinearLayout
+        android:id="@+id/qosGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/qosGroup"
-        android:layout_marginTop="16dp"
-        android:layout_below="@id/messageGroup" >
+        android:layout_below="@id/messageGroup"
+        android:layout_marginTop="16dp">
 
         <TextView
             android:id="@+id/qosTextView"
@@ -86,16 +85,14 @@ IBM Corp.
             android:id="@+id/qosRadio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-             >
+            android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/qos0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                android:text="@string/qos0"
-                 />
+                android:text="@string/qos0" />
 
             <RadioButton
                 android:id="@+id/qos1"
@@ -111,10 +108,10 @@ IBM Corp.
         </RadioGroup>
 
         <TextView
-            android:layout_marginStart="25dp"
             android:id="@+id/retainedTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
             android:layout_marginEnd="10dp"
             android:text="@string/retained" />
 
@@ -130,7 +127,7 @@ IBM Corp.
         android:id="@+id/publishButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:enabled="false"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_below="@id/qosGroup"

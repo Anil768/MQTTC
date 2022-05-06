@@ -35,18 +35,7 @@ import androidx.viewpager.widget.ViewPager;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttSecurityException;
 
-/**
- * The connection details activity operates the fragments that make up the
- * connection details screen.
- * <p>
- * The fragments which this FragmentActivity uses are
- * <ul>
- * <li>{@link HistoryFragment}
- * <li>{@link PublishFragment}
- * <li>{@link SubscribeFragment}
- * </ul>
- * 
- */
+
 public class ConnectionDetailsActivity extends AppCompatActivity implements
     ActionBar.TabListener {
 

@@ -119,7 +119,7 @@ public class ClientConnections extends ListActivity {
     }
     else {
       getMenuInflater().inflate(R.menu.activity_connections, menu);
-      menu.findItem(R.id.startLogging).setOnMenuItemClickListener(menuItemClickListener);
+      //menu.findItem(R.id.startLogging).setOnMenuItemClickListener(menuItemClickListener);
     }
 
     menu.findItem(R.id.newConnection).setOnMenuItemClickListener(
